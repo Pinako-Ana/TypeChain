@@ -1,0 +1,20 @@
+{
+  "name": "typeChain",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/Pinako-Ana/typeChain.git",
+  "author": "Pinako <BloodyNose29@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "start": "tsc-watch --onSuccess \" node dist/index.js\" "
+  },
+  "devDependencies": {
+    "@types/node": "^15.0.1",
+    "ts-node": "^9.1.1",
+    "tsc-watch": "^4.2.9",
+    "typescript": "^4.2.4"
+  },
+  "dependencies": {
+    "crypto-js": "^4.0.0"
+  }
+}
